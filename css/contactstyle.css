@@ -1,0 +1,112 @@
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact_header_line{
+    padding: 3%;
+    background-color: #04233b;
+    border-radius: 1%;
+    border: 5px solid #0e2c43;
+    opacity: 80%;
+    text-align: center;
+    box-shadow: 0px 0px 10px 4px rgba(99, 99, 99, 0.356);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(99, 99, 99, 0.356);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(99, 99, 99, 0.356);
+}
+#contact_header_line_text{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    size: 50%;
+
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-top: 5%;
+
+    }
+    
+    .div1 {
+        grid-area: 1 / 1 / 4 / 6;
+         margin: 1%;
+         padding: 1%;
+         margin-bottom: 0%;
+         align-items: center;
+         justify-content: center;
+         display: flex;
+         flex-wrap: wrap;
+         gap: 20px 20px
+    }
+
+    .card{
+        width: 19rem;
+        height: 30rem;
+
+    }
+    .card-body{
+        width: 19rem;
+
+    }
+    .contact_card_text{
+            text-align: left;
+            padding: 1%;
+    }
+    
+    .card-img-top{
+        width: 70%;
+        height: 40%;
+        align-self: center;
+    }
+    .div2 { grid-area: 4 / 2 / 6 / 5;  
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 5% ;
+
+    }
+
+.mapsframe{
+        margin: 3%;
+        box-shadow: -18px 5px 22px 0px rgba(138,130,130,0.71);
+        -webkit-box-shadow: -18px 5px 22px 0px rgba(138,130,130,0.71);
+        -moz-box-shadow: -18px 5px 22px 0px rgba(138,130,130,0.71);
+        position: absolute; /* Position absolutely within the container */
+        z-index: 1;
+    }
+    #div2_content{
+        color: white;
+        margin-top: 10%;
+    }
+
+    .background-rectangle {
+        justify-content: left;
+        margin-left: 17%;
+        opacity: 80%;
+        background-color: #04233b; /* Background color of the rectangle */
+        width: 55%; /* Adjust width as needed */
+        height: 15%; /* Adjust height as needed */
+        position: absolute; /* Position absolutely within the container */
+        z-index: 0;
+        box-shadow: 28px -17px 50px -14px rgba(138,130,130,0.71);
+        -webkit-box-shadow: 28px -17px 50px -14px rgba(138,130,130,0.71);
+        -moz-box-shadow: 28px -17px 50px -14px rgba(138,130,130,0.71);
+    }
+    .background-rectangle-text{
+        padding: 5%;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        position: absolute;
+        padding-left: 67%;
+        padding-top: 10%;
+        size: 50%;
+    }
+
+.footer_section {
+        position: relative;
+        background-color: #F4FFFD;
+        text-align: center;
+      }
